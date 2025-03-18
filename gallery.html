@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website I built for full-stack web development">
+    <title>Spencer's Gallery</title>
+    <link rel="stylesheet" href="resume.css"> <!-- Link to your CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Navigation Bar Styling */
+        .nav-bar {
+            background-color: lightyellow; /* White background for the navigation bar */
+            padding: 10px; /* Padding around the navigation items */
+            position: fixed; /* Fix the navbar to the top */
+            width: 100%; /* Full width */
+            top: 0; /* Align to the top */
+            left: 0; /* Align to the left */
+            z-index: 1000; /* Ensure it stays on top */
+        }
+
+        .resume-button {
+            background-color: lightcoral; /* Black background for the button */
+            color: white; /* White text color */
+            padding: 10px 20px; /* Padding inside the button */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Optional: rounded corners */
+            text-decoration: none; /* Remove underline from link */
+            font-family: 'Poppins', sans-serif; /* Use Poppins font */
+            font-size: 16px; /* Font size for the button */
+            margin-right: 20px; /* Space between buttons */
+        }
+
+        .resume-button:hover {
+            background-color: coral; /* Darker shade on hover */
+        }
+
+        /* Gallery Section Styling */
+        .gallery-container {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+            justify-content: center; /* Center items horizontally */
+            padding: 80px 20px; /* Add padding to the gallery container */
+            margin-top: 60px; /* Ensure space below the fixed navbar */
+        }
+
+        .gallery-item {
+            width: 200px; /* Set a fixed width for each image box */
+            height: 200px; /* Set a fixed height for each image box */
+            margin: 10px; /* Space between images */
+            overflow: hidden; /* Hide overflow */
+            border-radius: 10px; /* Rounded corners */
+            border: 2px solid black; /* Border around each image box */
+            display: flex; /* Use flexbox for centering the image */
+            align-items: center; /* Center vertically */
+            justify-content: center; /* Center horizontally */
+            background-color: pink; /* Background color for the image box */
+        }
+
+        .gallery-item img {
+            max-width: 100%; /* Make image responsive */
+            max-height: 100%; /* Make image responsive */
+            object-fit: cover; /* Cover the box without distorting the image */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+        <a href="index.html" class="resume-button">Back to Website</a>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="pic1.png" alt="Gallery Image 1"> <!-- Replace with your image path -->
+        </div>
+        <div class="gallery-item">
+            <img src="pic2.jpg" alt="Gallery Image 2"> <!-- Replace with your image path -->
+        </div>
+        <div class="gallery-item">
+            <img src="pic3.png" alt="Gallery Image 3"> <!-- Replace with your image path -->
+        </div>
+        <div class="gallery-item">
+            <img src="pic4.png" alt="Gallery Image 4"> <!-- Replace with your image path -->
+        </div>
+    </div>
+</body>
+</html>

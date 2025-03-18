@@ -1,0 +1,38 @@
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure the html and body take up the full height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('premium_photo-1701767501250-fda0c8f7907f.jpg'); /* Ensure this image is correct */
+    background-size: cover; /* Ensures the background covers the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scroll */
+    color: #333;
+    min-height: 100vh; /* Ensure the body height is at least 100vh */
+}
+
+.nav-bar {
+    background-color: lightyellow; /* White background for the navigation bar */
+    padding: 10px; /* Padding around the navigation bar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.resume-button {
+    background-color: lightcoral; /* Black background for the button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: rounded corners */
+    text-decoration: none; /* Remove underline from link */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    font-size: 16px; /* Font size for the button */
+}
+
+.resume-button:hover {
+    background-color: coral; 
+}

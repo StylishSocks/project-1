@@ -1,0 +1,133 @@
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure the html and body take up the full height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('premium_photo-1701767501250-fda0c8f7907f.jpg'); /* Ensure this image is correct */
+    background-size: cover; /* Ensures the background covers the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scroll */
+    color: #333;
+    min-height: 100vh; /* Ensure the body height is at least 100vh */
+}
+
+.header-container {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center vertically within the container */
+    padding: 180px 30px 0 200px; /* Add padding: top, right, bottom, left */
+}
+
+.profile-pic {
+    width: 300px; /* Set the width of the image */
+    height: 300px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+    margin-right: 20px; /* Space between image and text */
+}
+
+h1 {
+    color: white; /* Set text color to white */
+    font-family: 'Roboto Slab', serif; /* Use Roboto Slab font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow effect */
+    margin: 0; /* Remove default margins */
+    font-size: 48px; /* Set the font size to 48 pixels */
+}
+
+h2 {
+    color: lightgray; /* Set text color to light gray */
+    font-family: 'Roboto Slab', serif; /* Use Roboto Slab font */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add a shadow effect */
+    margin: 0; /* Remove default margins */
+    font-size: 20px; /* Set the font size to 20 pixels */
+    margin-top: 5px; /* Add a little space above the h2 */
+}
+
+.highlight {
+    padding: 2px 5px; /* Smaller padding for a tighter wrap around the text */
+    border-radius: 5px; /* Optional: add rounded corners to the background */
+    display: inline-block; /* Ensure the background only covers the text */
+    color: lightpink; /* Set text color to white */
+    
+}
+
+.more-about-me-container {
+    margin: 20px 30px; /* Add top and bottom margins for spacing */
+    padding: 20px; /* Add padding for inner spacing */
+    max-width: 600px; /* Set a max width to control line length */
+    margin-left: auto; /* Push the container to the right */
+    margin-right: 300px; /* Keep some space from the right edge */
+}
+
+
+.about-me p {
+    color: #333; /* Set paragraph text color */
+    font-size: 18px; /* Set font size for paragraphs */
+    line-height: 1.5; /* Improve readability with line height */
+    margin: 0; /* Remove default margins */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Add shadow effect for depth */
+    border-radius: 15px; /* Optional: rounded corners */font-family: 'Roboto Slab', serif; /* Use Roboto Slab font */
+}
+
+h3 {
+    color: white; /* Set text color to white */
+    font-family: 'Roboto Slab', serif; /* Use Roboto Slab font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow effect */
+    margin: 0; /* Remove default margins */
+    font-size: 24px; /* Set the font size to 48 pixels */
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+.about-me ul {
+    padding-left: 20px; /* Indent the list from the left */
+}
+
+.about-me li {
+    color: white; /* Set text color for list items */
+    font-size: 18px; /* Set font size for list items */
+    line-height: 1.5; /* Improve readability with line height */
+    margin: 5px 0; /* Add space between list items */
+    font-family: 'Roboto Slab', serif; /* Use Roboto Slab font */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add a shadow effect */
+}
+
+
+.nav-bar {
+    background-color: lightyellow; /* White background for the navigation bar */
+    padding: 10px; /* Padding around the navigation bar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.resume-button {
+    background-color: lightcoral; /* Black background for the button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: rounded corners */
+    text-decoration: none; /* Remove underline from link */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    font-size: 16px; /* Font size for the button */
+    /* margin-right: 5px; */
+    margin-left: 5px;
+}
+
+.resume-button:hover {
+    background-color: coral; /* Darker shade on hover */
+}
+
+.test-about-me-container {
+    margin: 20px 30px; /* Add top and bottom margins for spacing */
+    padding: 20px; /* Add padding for inner spacing */
+    max-width: 600px; /* Set a max width to control line length */
+    margin-left: auto; /* Push the container to the right */
+    margin-right: 300px; /* Keep some space from the right edge */
+    padding-bottom: 200px;
+}
+
